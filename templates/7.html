@@ -1,0 +1,30 @@
+
+
+<style>
+
+
+
+    .container{
+        
+        background-color: lightslategray;
+    
+    }
+</style>
+<div class="flex justify-center h-screen w-full items-center container" >
+
+    <span class="text" hx-swap = 'outerHTML' hx-target = 'body' hx-get = '/hello?id=1' hx-trigger = 'click'>w</span>
+    <span class="text" hx-swap = 'outerHTML' hx-target = 'body' hx-get = '/hello?id=2' hx-trigger = 'click'>i</span>
+    <span class="text" hx-swap = 'outerHTML' hx-target = 'body' hx-get = '/hello?id=3' hx-trigger = 'click'>n</span>
+    <span class="text" hx-swap = 'outerHTML' hx-target = 'body' hx-get = '/hello?id=4' hx-trigger = 'click'>m</span>
+    <span class="text" hx-swap = 'outerHTML' hx-target = 'body' hx-get = '/hello?id=5' hx-trigger = 'click'>a</span>
+    <span class="text" hx-swap = 'outerHTML' hx-target = 'body' hx-get = '/hello?id=6' hx-trigger = 'click'>r</span>
+    <span class="text hovered" hx-swap = 'outerHTML' hx-target = 'body' hx-get = '/hello?id=7' hx-trigger = 'click'>i</span>
+    
+
+
+</div>
+
+
+
+
+<script src="https://unpkg.com/htmx.org@1.9.6"></script>
