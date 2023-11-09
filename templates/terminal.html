@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+
+ 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+ 
+    body{
+        color: #4e9a06  ;
+        background-color: black;
+        font-size: 2rem;
+        font: Cascadia Code;
+    }
+    .terminal-response{
+        color: white !important;
+    }
+    input, input:focus{
+        background-color: transparent;
+        outline: none;
+    }
+
+</style>
+
+</head>
+<body>
+
+    <pre>
+Terminal Portfolio [Version 1.1.1.1.11.1]
+(c) Winmari Manzano. All rights reserved.
+    </pre>
+    
+    <div class="terminal-response">
+
+
+
+    </div>
+    <label for="terminal">$</label>
+    <input onblur = 'this.focus()'hx-get = '/terminal' hx-target = '.terminal-response' hx-on::after-request="this.value = ''" hx-swap = "beforebegin" type="text" name="terminal" id="" autofocus>
+    <div class="flex justify-center h-screen w-full items-center " >
+
+
+    
+    </div>
+    
+
+
+
+    <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+</body>
+</html>
